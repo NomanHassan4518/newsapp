@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import News from './News'
 
 export default class Navbar extends Component {
   static propTypes = {
@@ -8,6 +9,7 @@ export default class Navbar extends Component {
 
   render() {
     return (
+        <>
                         <nav className="navbar navbar-expand-lg bg-body-tertiary">
                         <div className="container-fluid">
                         <a className="navbar-brand" href="#">Navbar</a>
@@ -44,6 +46,10 @@ export default class Navbar extends Component {
                         </div>
                         </div>
                     </nav>
+
+<News/>
+</>
+                  
     )
   }
 }

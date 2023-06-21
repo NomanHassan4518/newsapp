@@ -4,7 +4,7 @@ export default class NewsItem extends Component {
   render() {
     return (
       <div>
-        
+        This is news component
       </div>
     )
   }
