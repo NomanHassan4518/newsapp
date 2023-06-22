@@ -6,6 +6,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import React, { Component } from 'react'
 import Navbar from './Components/Navbar';
 import News from './Components/News';
+// import News from './Components/News';
 
 // In React.js, there are two main approaches for creating components: function components and class components. While both can achieve the same functionality, there are differences in how they are defined and how state and lifecycle methods are handled.
 
@@ -30,7 +31,7 @@ export default class App extends Component {
     return (
       <div>
       <Navbar/>
-     
+     <News pageSize={5}/>
       </div>
     )
   }
